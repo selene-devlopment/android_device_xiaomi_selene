@@ -343,6 +343,7 @@ PRODUCT_COPY_FILES += \
 
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/mediatek \
     $(LOCAL_PATH)
 
 # SoundTrigger
