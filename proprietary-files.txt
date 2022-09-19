@@ -650,8 +650,6 @@ vendor/lib64/hw/hwcomposer.mt6768.so
 vendor/lib64/hw/memtrack.default.so
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/permissions/com.fingerprints.extension.xml
 -vendor/framework/com.fingerprints.extension.jar
 vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
