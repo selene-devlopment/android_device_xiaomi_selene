@@ -107,5 +107,7 @@ vendor_dlkm				/vendor_dlkm			ext4		ro															wait,slotselect,avb,logical
 
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
 
+<<<<<<< HEAD:rootdir/etc/fstab.mt6768
 # Zram
-/dev/block/zram0 none swap defaults zramsize=75%,max_comp_streams=8
+/dev/block/zram0 none swap defaults zramsize=75%,max_comp_streams=8,zram_backingdev_size=512M
+
