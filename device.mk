@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl.custom \
     fastbootd
+
+# FM Radio
+PRODUCT_PACKAGES += \
+    MtkFMRadio
 	
 # Gatekeeper
 PRODUCT_PACKAGES += \
