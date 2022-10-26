@@ -746,6 +746,9 @@ vendor/firmware/WIFI_RAM_CODE_soc1_0_1a_1.bin
 vendor/firmware/WMT_SOC.cfg
 vendor/firmware/WMT_SOC_K19SCN.cfg
 
+# FM Radio
+-system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
+
 # GPS
 vendor/lib/hw/gps.default.so
 vendor/lib64/hw/gps.default.so
