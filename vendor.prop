@@ -251,6 +251,7 @@ debug.sf.hwc.min.duration=21000000
 debug.sf.late.app.duration=24000000
 debug.sf.late.sf.duration=30000000
 debug.sf.disable_client_composition_cache=1
+debug.sf.enable_gl_backpressure=1
 
 # TEE
 ro.vendor.mtk_tee_gp_support=1
