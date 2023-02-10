@@ -392,6 +392,7 @@ PRODUCT_PACKAGES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
+    hardware/xiaomi \
     $(LOCAL_PATH)
 
 # SoundTrigger
