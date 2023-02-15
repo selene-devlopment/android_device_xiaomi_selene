@@ -243,6 +243,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    ApertureOverlaySelene \
     CarrierConfigOverlaySelene \
     FrameworksResOverlaySelene \
     SettingsOverlaySelene \
