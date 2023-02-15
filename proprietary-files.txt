@@ -1158,9 +1158,7 @@ vendor/lib64/hw/vibrator.mt6768.so
 vendor/lib64/libvibrator.so
 
 # WiFi
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
-vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
--vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
+-vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
 # Xiaomi
 vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi

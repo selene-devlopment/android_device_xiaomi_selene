@@ -305,11 +305,11 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy.selene \
     hostapd \
     wpa_supplicant
 
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.5.vendor:64 \
     android.hardware.tetheroffload.control@1.1.vendor:64
 
 PRODUCT_COPY_FILES += \
