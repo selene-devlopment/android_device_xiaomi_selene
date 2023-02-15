@@ -1138,6 +1138,12 @@ vendor/lib64/hw/thermal_hal.so
 vendor/lib/hw/vibrator.mt6768.so
 vendor/lib64/hw/vibrator.mt6768.so
 
+# Vintf
+-vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mediatek.xml
+-vendor/etc/vintf/manifest/gnss@2.1-service.xml
+-vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
+-vendor/etc/vintf/manifest/manifest_hwcomposer.xml
+
 # WiFi
 -vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
