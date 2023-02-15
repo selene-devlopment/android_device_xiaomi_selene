@@ -1239,7 +1239,6 @@ vendor/bin/bip
 vendor/bin/bp_kmsetkey_ca
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
-vendor/bin/charge_logger
 vendor/bin/charon
 vendor/bin/chipinfo
 vendor/bin/dconfig
