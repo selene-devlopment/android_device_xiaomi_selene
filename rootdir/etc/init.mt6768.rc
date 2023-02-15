@@ -1305,3 +1305,7 @@ on property:odm.audio.typec.status=*
 on property:ro.product.marketname="Redmi 10"
     setprop ro.lmk.use_minfree_levels "true"
     restart lmkd
+
+# Stop Serial Console
+on boot
+    stop console
