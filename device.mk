@@ -172,10 +172,6 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
-PRODUCT_PACKAGES += \
-    android.hidl.memory.block@1.0 \
-    android.hidl.memory.block@1.0.vendor
-
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0.vendor
