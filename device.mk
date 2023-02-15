@@ -348,6 +348,7 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     libcrypto-v32 \
+    libhidlbase-v32 \
     libutils-v32
 
 # WiFi
