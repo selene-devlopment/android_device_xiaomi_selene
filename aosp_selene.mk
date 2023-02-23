@@ -34,8 +34,3 @@ PRODUCT_MODEL := selene
 
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="selene-user 12 SP1A.210812.016 V13.0.6.0.SKUCNXM release-keys"
-
-BUILD_FINGERPRINT := Redmi/selene/selene:12/SP1A.210812.016/V13.0.6.0.SKUCNXM:user/release-keys
