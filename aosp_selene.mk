@@ -20,6 +20,7 @@ $(call inherit-product, device/xiaomi/selene/device.mk)
 
 # PixelExperience Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
