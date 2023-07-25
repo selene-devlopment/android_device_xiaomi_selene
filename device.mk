@@ -235,6 +235,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlaySelene \
     FrameworksResOverlaySelene \
     SystemUIOverlaySelene \
     WifiResOverlaySelene
