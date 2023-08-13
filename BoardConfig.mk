@@ -133,3 +133,6 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # VNDK
 BOARD_VNDK_VERSION := current
+
+# Inherit the proprietary files
+include vendor/xiaomi/selene/BoardConfigVendor.mk
