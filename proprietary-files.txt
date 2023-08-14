@@ -616,11 +616,6 @@ vendor/etc/camera/Roboto_Medium.ttf
 vendor/etc/camera/sr_params.xml
 vendor/etc/camera/watermark_font_2300_3199.dat
 
-# Charger
-bin/kpoc_charger
-boot/ramdisk/system/etc/init/kpoc_charger.rc
-etc/init/kpoc_charger.rc
-
 # Consumerir
 vendor/lib/hw/consumerir.common.so
 vendor/lib64/hw/consumerir.common.so
@@ -1360,15 +1355,6 @@ vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/[
-vendor/build_eos.prop
-vendor/build_eos_p.prop
-vendor/build_eos_u.prop
-vendor/build_selene.prop
-vendor/build_selene_la.prop
-vendor/build_selene_la_v.prop
-vendor/build_selene_p.prop
-vendor/build_selene_s.prop
-vendor/build_selene_t.prop
 vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/apdb/APDB_MT6768_S01__W2145
 vendor/etc/apdb/APDB_MT6768_S01__W2145_ENUM
