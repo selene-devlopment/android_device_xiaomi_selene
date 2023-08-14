@@ -184,6 +184,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
+	
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.2.vendor:64
 
 # Public Libraries
 PRODUCT_COPY_FILES += \

@@ -1099,9 +1099,6 @@ vendor/libnfc-nxp_RF.conf
 
 # Power-Hardware
 vendor/lib/hw/power.default.so
-vendor/lib64/android.hardware.power@1.0.so
-vendor/lib64/android.hardware.power@1.1.so
-vendor/lib64/android.hardware.power@1.2.so
 vendor/lib64/hw/power.default.so
 
 # QMI
