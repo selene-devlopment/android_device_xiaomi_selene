@@ -83,8 +83,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mt6833.usb.rc",
-    src: "etc/init.mt6833.usb.rc",
+    name: "init.mt6768.usb.rc",
+    src: "etc/init.mt6768.usb.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -139,15 +139,15 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mt6833.rc",
-    src: "etc/init.mt6833.rc",
+    name: "init.mt6768.rc",
+    src: "etc/init.mt6768.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 // Ueventd
 prebuilt_etc {
-    name: "ueventd.mt6833.rc",
+    name: "ueventd.mt6768.rc",
     filename: "ueventd.rc",
     src: "etc/ueventd.mt6768.rc",
     vendor: true,
