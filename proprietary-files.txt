@@ -1107,14 +1107,7 @@ vendor/lib64/hw/power.default.so
 vendor/lib/libvsim.so
 
 # Sensors
-vendor/lib/android.hardware.sensors@1.0.so
-vendor/lib/libsensorndkbridge.so
-vendor/lib64/android.hardware.sensors@1.0.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
-vendor/lib64/android.hardware.sensors@2.0.so
-vendor/lib64/android.hardware.sensors@2.1.so
 vendor/lib64/hw/sensors.mt6768.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensor_custom.so
 
 # Soter
@@ -1752,7 +1745,6 @@ vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/etc/wfd_source_capability.csv
-vendor/lib/android.frameworks.sensorservice@1.0.so
 vendor/lib/android.hardware.ir@1.0.so
 vendor/lib/android.hardware.media.c2@1.0.so
 vendor/lib/android.hardware.media.c2@1.1.so
@@ -1958,7 +1950,6 @@ vendor/lib/mt6768/libpq_prot.so
 vendor/lib/shared-file-region-aidl-cpp.so
 vendor/lib/soundfx/libhapticgenerator.so
 vendor/lib/wechat.beanpod.so
-vendor/lib64/android.frameworks.sensorservice@1.0.so
 vendor/lib64/android.hardware.dumpstate@1.0.so
 vendor/lib64/android.hardware.dumpstate@1.1.so
 vendor/lib64/android.hardware.ir@1.0.so
