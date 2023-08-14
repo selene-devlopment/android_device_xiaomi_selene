@@ -279,15 +279,15 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.enableswap \
-    fstab.mt6833
+    fstab.mt6768
 	
 PRODUCT_PACKAGES += \
     init.ago.rc \
     init.connectivity.common.rc \
     init.connectivity.rc \
     init.modem.rc \
-    init.mt6833.rc \
-    init.mt6833.usb.rc \
+    init.mt6768.rc \
+    init.mt6768.usb.rc \
     init.project.rc \
     init.sensor_1_0.rc \
     init_connectivity.rc
@@ -300,7 +300,7 @@ PRODUCT_PACKAGES += \
     meta_init.rc
 
 PRODUCT_PACKAGES += \
-    ueventd.mt6833.rc
+    ueventd.mt6768.rc
 
 PRODUCT_PACKAGES += \
     multi_init.rc
@@ -310,7 +310,7 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6833:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.mt6833
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.mt6768
 
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
