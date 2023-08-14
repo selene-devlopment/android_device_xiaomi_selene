@@ -1149,10 +1149,6 @@ service factory_no_image /vendor/bin/factory
     socket factory-atci stream 660 radio system
     disabled
     oneshot
-	
-# start meta_tst for ATM
-on property:sys.boot_completed=1 && property:ro.boot.atm=enable
-    start meta_tst
 
 # reset mdmode when modem crash happens in ATM
 on property:vendor.mtk.md1.status=reset
