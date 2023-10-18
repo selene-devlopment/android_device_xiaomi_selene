@@ -236,7 +236,8 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlaySelene \
-    SystemUIOverlaySelene
+    SystemUIOverlaySelene \
+    WifiResOverlaySelene
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
