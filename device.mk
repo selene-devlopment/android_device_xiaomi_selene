@@ -176,6 +176,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0.vendor
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)-kernel/Image.gz:kernel
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor:64 \
