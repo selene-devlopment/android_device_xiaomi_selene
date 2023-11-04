@@ -646,15 +646,6 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.mt6768.so
 vendor/lib64/hw/memtrack.default.so
 
-# Fido
-vendor/bin/fidoca
-vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
-vendor/lib/libmfido.so
-vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
-vendor/lib64/libmfido.so
-vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
-
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
@@ -1150,45 +1141,25 @@ vendor/lib64/hw/vibrator.mt6768.so
 # Xiaomi
 vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi
 vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
-vendor/bin/mtd@1.2
-vendor/bin/tidad@1.1
 vendor/bin/vendor.xiaomi.hardware.otrpagent@2.0-service
 vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc
 vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
 -vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml
 -vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
 -vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml
 -vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
 vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib/libtida@1.1.so
 vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so
-vendor/lib/vendor.xiaomi.hardware.touchfeature@1.0.so
-vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib64/libtida@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
 vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so
-vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
 
 # Misc
 vendor/bin/128GB_FW_HW_forFFU.BIN
