@@ -268,7 +268,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor:64 \
-    android.hardware.power-V2-ndk.vendor:64
+    android.hardware.power-V2-ndk.vendor:64 \
+    vendor.mediatek.hardware.mtkpower@1.2.vendor
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
