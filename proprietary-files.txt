@@ -803,7 +803,6 @@ vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
-vendor/bin/hw/android.hardware.vibrator-service.mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
