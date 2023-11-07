@@ -5,7 +5,7 @@ VENDOR_LOG_LEVEL=S
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.log.tag.AT=$(VENDOR_LOG_LEVEL) \
+        persist.log.tag.AT=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.AdnRecord=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.AdnRecordCache=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.AdnRecordLoader=$(VENDOR_LOG_LEVEL) \
@@ -15,7 +15,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.log.tag.CarrierExpressServiceImpl=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.CarrierExpressServiceImplExt=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.CountryDetector=$(VENDOR_LOG_LEVEL) \
-	persist.log.tag.DSSelector=Ipersist.log.tag.DSSelectorOP01=$(VENDOR_LOG_LEVEL) \
+	persist.log.tag.DSSelector=$(VENDOR_LOG_LEVEL) \
+        persist.log.tag.DSSelectorOP01=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.DSSelectorOP02=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.DSSelectorOP09=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.DSSelectorOP18=$(VENDOR_LOG_LEVEL) \
@@ -218,3 +219,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.log.tag.mtkpower@impl=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.mtkpower_client=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.wpfa_iptable_android=$(VENDOR_LOG_LEVEL) \
+        persist.log.tag.gralloc4=$(VENDOR_LOG_LEVEL)
