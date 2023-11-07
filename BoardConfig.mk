@@ -151,7 +151,6 @@ TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 include $(DEVICE_PATH)/vendor_logtag.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
