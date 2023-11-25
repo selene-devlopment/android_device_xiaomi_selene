@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@7.0-util.vendor \
     android.hardware.audio@7.0.vendor \
-	android.hardware.audio.effect@7.0.vendor \
+    android.hardware.audio.effect@7.0.vendor \
     android.hardware.audio.effect@7.0-impl:32
 
 PRODUCT_PACKAGES += \
@@ -72,6 +72,7 @@ PRODUCT_PACKAGES += \
     libaudiopreprocessing
 
 PRODUCT_PACKAGES += \
+    BesLoudness \
     MtkInCallService
 
 PRODUCT_COPY_FILES += \
