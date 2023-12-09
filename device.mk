@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.2-service.mediatek
+    android.hardware.biometrics.fingerprint@2.1-service.selene
 
 # Bluetooth
 PRODUCT_PACKAGES += \
