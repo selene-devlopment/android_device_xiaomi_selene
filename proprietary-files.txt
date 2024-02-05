@@ -1113,7 +1113,7 @@ vendor/lib64/hw/thermal_hal.so
 -vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 
 # WiFi
--vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
+vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
 # Xiaomi
 vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi
