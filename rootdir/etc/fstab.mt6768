@@ -106,3 +106,6 @@ vendor_dlkm				/vendor_dlkm			ext4		ro															wait,slotselect,avb,logical
 
 
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
+
+# Zram
+/dev/block/zram0 none swap defaults zramsize=55%

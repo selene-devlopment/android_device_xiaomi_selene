@@ -334,7 +334,6 @@ PRODUCT_PACKAGES += \
     factory_init.rc
 
 PRODUCT_PACKAGES += \
-    fstab.enableswap \
     fstab.mt6768
 	
 PRODUCT_PACKAGES += \
